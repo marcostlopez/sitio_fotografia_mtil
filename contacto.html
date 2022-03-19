@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcos Lopez</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- tipografias -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Petrona:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Petrona:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="./index.html">
+                <!-- Cambio de logo para pantalla mobile y desktop -->
+                <picture>
+                    <source media="(max-width:480px)" srcset="./multimedia/logo_Mobile.svg" alt="Marcos Lopez">
+                    <!-- <source media="(max-width:680px)" srcset="./multimedia/logo.svg" alt="Marcos Lopez"> -->
+                    <img src="./multimedia/logo.svg" alt="Marcos Lopez">
+                </picture>
+            </a>
+        </div>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./galeria.html">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="./acerca.html">Acerca</a>
+                    </li>
+                    <li>
+                        <a href="./trabajos.html">Trabajos</a>
+                    </li>
+                    <li>
+                        <a href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main_contacto">
+
+        <h1>
+            Contacto
+        </h1>
+
+        <form id="formulario" action="" method="post">
+            <label for="username">Nombre de Usuario</label>
+            <input type="text" name="username" id="username">
+            <label for="email">Ingrese su email</label>
+            <input type="email" name="email" id="email">
+            <label for="password">Contraseña</label>
+            <input type="password" name="contraseña" id="contraseña">
+            <input type="submit" name="enviar" value="enviar">
+            <input type="reset" name="reset" value="reset">
+        </form>
+
+        <section class="muestrario">
+            <figure>
+                <img class="muestrario_imagen" src="./multimedia/imagenes/Serie_texturas(1).jpg"
+                    alt="imagen textura 1">
+            </figure>
+        </section>
+
+    </main>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="./multimedia/iconos/facebook_icon.png" alt="facebook">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="./multimedia/iconos/instagram_icon.png" alt="instagram">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank">
+                    <img src="./multimedia/iconos/twitter_icon.png" alt="twitter">
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
